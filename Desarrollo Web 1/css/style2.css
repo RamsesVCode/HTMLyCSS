@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image:url("../image/fondo1.jpg");
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+.nav{
+    width:96%;
+    margin:0 auto;
+    height:100px;
+    display:flex;
+    justify-content:center;
+}
+.nav > div{
+    flex-grow:1;
+    max-width:960px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.nav ul{
+    flex-grow:1;
+    max-width:500px;
+    width:100%;
+    height:50px;
+    display:flex;
+}
+.nav li{
+    flex:1;
+    list-style:none;
+}
+.nav a{
+    display:flex;
+    width:inherit;
+    height:100%;
+    justify-content:center;
+    align-items:center;
+    text-transform:uppercase;
+    font:normal 20px 'Oswald';
+    text-decoration:none;
+    color:black;
+}
+.nav a:hover{
+    font-size:30px;
+}
+.main{
+    box-sizing:border-box;
+    width:96%;
+    display:flex;
+    justify-content:center;
+    margin:0 auto;
+    height:537px;
+    padding-bottom:10px;
+}
+.main > div{
+    flex:1;
+    max-width:960px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+.main .box{
+    width:110px;
+    height:30px;
+    border-radius:5px;
+}
+.main a{
+    box-sizing:border-box;
+    text-align:right;
+    color:white;
+    display:block;
+    background-image:url('../image/icono_cam.png');
+    background-position:3px;
+    background-size:26px;
+    background-repeat:no-repeat;
+    background-color:black;
+    height:inherit;
+    width:inherit;
+    border-radius:inherit;
+    padding:1px 10px 0 0;
+    text-decoration:none;
+    text-transform:lowercase;
+    font:normal 16px 'Oswald';
+    position:relative;
+}

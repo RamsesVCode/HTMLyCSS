@@ -1,0 +1,21 @@
+.container{
+    margin:0;
+    padding:5px;
+    width:700px;
+    height:300px;
+    background-color: khaki;
+    box-sizing:border-box;
+    display:flex;
+    overflow-x:scroll;
+}
+.container-img{
+    margin:0 5px 0 0;
+    width:270px;
+    height:270px;
+    border:1px solid;
+
+}
+.container-img img{
+    width:270px;
+    height:270px;
+}

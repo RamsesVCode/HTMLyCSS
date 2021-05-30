@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Roboto';
+    color:black;
+}
+.hero{
+    width:100%;
+    height:90px;
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+}
+.hero > div{
+    flex:1;
+    max-width:1000px;
+    display:flex;
+    align-items:center;
+}
+.hero .content.uno{
+    flex:1;
+    height:40px;
+    text-align:center;
+    font:bold 25px 'Roboto';
+    letter-spacing:4px;
+}
+.hero .content.uno span:hover{
+    cursor:pointer;
+}
+.hero .content.dos{
+    flex:2.5;
+}
+.hero .content.tres{
+    flex:1;
+    display:flex;
+    justify-content:flex-end;
+}
+.hero .content.tres>div{
+    width:65%;
+    display:flex;
+}
+.hero .content.dos li{
+    display:inline-block;
+    height:30px;
+    width:16%;
+}
+.hero .content.dos a{
+    display:flex;
+    height:inherit;
+    width:100%;
+    text-transform:capitalize;
+    font-weight:bold;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+}
+.hero .content.dos a:hover{
+    font-size: 20px;
+}
+.hero .content.tres a{
+    flex:2;
+    text-decoration:none;
+    text-align:center;
+    font:bold 14px 'Roboto';
+    padding-top:3px;
+}
+.hero .content.tres figure{
+    flex:1;
+    text-align:center;
+}
+img{
+    width:20px;
+}
+.buttons:hover{
+    cursor:pointer;
+}
+.principal{
+    width:100%;
+    height:567px;
+    background-image:url('../image/escena.jpg');
+    background-repeat:no-repeat;
+    background-size:100%;
+    display:flex;
+    justify-content:center;
+}
+.principal > div{
+    flex:1;
+    max-width:95%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.principal .context{
+    box-sizing:border-box;
+    padding-top:10px;
+    width:10.4em;
+    height:2em;
+    margin-bottom:10px;
+    font:normal 2em 'Yanone Kaffeesatz';
+    text-align:center;
+}
+.principal .context a{
+    font-weight:bold;
+    color:white;
+    text-shadow:-2px -2px 5px black;
+    text-decoration:none;
+    text-transform:capitalize;
+}
+.principal .context a:hover{
+    font-size:2.2rem;
+}

@@ -1,0 +1,38 @@
+body{
+    font-family:"Open Sans";
+    color:white;
+}
+.form{
+    width:500px;
+    margin:auto;
+    background: -webkit-linear-gradient(right, #74ebd5, #acb6e5);
+    height:280px;
+    border-radius:10px;
+}
+h2, p, label{
+    margin:0;
+    padding:0;
+}
+.form-content{
+    width:60%;
+    margin:inherit;
+    height:100%;
+    text-align:center;
+}
+.form-title{
+    padding-top:15px;
+    padding-bottom:25px;
+    font-size:20px;
+}
+form label{
+    font-size:14px;
+}
+.form-input{
+    width:220px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+input::placeholder{
+    text-align:center;
+    font-size:17px;
+}

@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav{
+    width:96%;
+    margin:0 auto;
+    height:50px;
+}
+.nav div{
+    flex-grow:1;
+    max-width:960px;
+    margin:0 auto;
+}
+.nav li{
+    display:inline-block;
+    width:100px;
+    height:50px;
+    font:normal 20px 'Open Sans Condensed';
+    text-transform:capitalize;
+    margin-right:-4px;
+}
+.nav li a{
+    display:flex;
+    width:inherit;
+    height:inherit;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+}
+.nav a:hover{
+    background-color:rgb(247, 240, 240);
+}

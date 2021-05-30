@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    padding:0;
+}
+.header{
+    width:750px;
+    height:250px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+.main{
+    width:750px;
+    height:500px;
+    margin:10px 10px 10px 0;
+}
+.aside-left{
+    width:150px;
+    height:500px;
+    background-color:lightsalmon;
+    border-radius: 10px;
+    margin-right:8px;
+    float:left;
+}
+.article{
+    width:430px;
+    height:500px;
+    background-color:lime;
+    border-radius: 10px;
+    margin-right: 8px;
+    float:left;
+}
+.aside-right{
+    width:150px;
+    height:500px;
+    background-color:mediumpurple;
+    border-radius: 10px;
+    float:left;
+}
+.footer{
+    width:750px;
+    height:50px;
+    background-color:lightgreen;
+    border-radius:10px;
+}

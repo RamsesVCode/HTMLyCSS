@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de ejemplo</title>
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+        }
+        .header{
+            width:100%;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        .header nav{
+            width:96%;
+            max-width:96%;
+            background-color: red;
+        }
+        .header ul{
+            width:96%;
+            list-style:none;
+            display:flex;
+        }
+        .header ul li{
+            flex-grow:1;
+        }
+        .header li a{
+            padding:10px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text-decoration:none;
+            font-size:20px;
+            color:white;
+        }
+        .header li a:hover{
+            background-color: rgb(146, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#">Entradas</a></li>
+                <li><a href="#">Actividades</a></li>
+                <li><a href="#">Vuelos</a></li>
+                <li><a href="#">Viajes</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
